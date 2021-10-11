@@ -1,0 +1,55 @@
+.img1{
+    float: right;
+    width: 100px;
+    height: 100px; 
+}
+
+.box1{
+    width: 400px;
+    height: 150px;
+}
+
+.box2{
+    width: 400px;
+    height: 150px;
+}
+
+.fondo{
+    background-image: url('img/imagendefondo.png');
+    background-size: cover;
+    height: 550px;
+    background-position: center;
+
+}
+.textarea1{
+    background-color: salmon;
+    padding: 10px;
+    width: 475px;       
+    display: inline;
+    height: 150px;
+}
+
+.textarea2{
+    border: 1px sandybrown;
+    background-color: salmon;
+    padding: 10px;
+    width: 500px;       
+    display: inline;
+    height: 150px;
+}
+
+.decifrar:hover {
+    border: 2px solid #0099CC;
+    border-radius: 6px; 
+    text-align: right;
+    display: inline-flex;
+}
+
+.cifrar:hover {
+    background: transparent;
+    border: 2px solid #0099CC;
+    border-radius: 6px; 
+    text-align: left; 
+    display: inline-flex;
+}
+
