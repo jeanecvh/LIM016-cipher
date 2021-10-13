@@ -1,17 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.tittle1{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background: lightcoral;
+
+}
+
 .img1{
     float: right;
     width: 100px;
     height: 100px; 
 }
 
-.box1{
+.centro{
+    display: flex;
+    column: 2;
+}
+.contenido{
+    background-color: aqua;
     width: 400px;
-    height: 150px;
+    height: 400px;
+    display: flex;
+    align-content: center;
+    line-height: 2;
 }
 
-.box2{
-    width: 400px;
-    height: 150px;
+.cifrado{
+    display: flex;
+    justify-content: right;
+}
+.inputBox{
+    display: flex;
+    justify-content: right;
+    opacity: 90%;
+  /*  
+    height: 50px;
+    width: 50px;*/
+}
+
+.one{
+    display: flex;
+    justify-content: right;
+    margin: 50px;
+}
+
+.two{
+    display: flex;
+    justify-content: center;
+}
+
+.three{
+    display: flex;
+    justify-content: right;
+}
+
+.first{
+    width: 100px;
+    height: 100px;
 }
 
 .fondo{
@@ -19,8 +71,11 @@
     background-size: cover;
     height: 550px;
     background-position: center;
+    opacity: 90%;
 
 }
+
+/*
 .textarea1{
     background-color: salmon;
     padding: 10px;
@@ -37,8 +92,10 @@
     display: inline;
     height: 150px;
 }
+*/
 
 .decifrar:hover {
+    
     border: 2px solid #0099CC;
     border-radius: 6px; 
     text-align: right;
@@ -53,3 +110,21 @@
     display: inline-flex;
 }
 
+.redes{
+    width: auto;
+    height: 100px;
+    background: salmon;
+    display: flex;
+    
+}
+
+.help{
+    width: auto;
+    height: 200px;
+    background: violet;
+
+}
+.adastra{
+    border-radius: 10px;
+    box-shadow: 10px 13px 12px 2px purple;
+}
