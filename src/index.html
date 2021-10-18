@@ -7,64 +7,75 @@
   </head>
   <body  >
     <div id="root">
-      <h1 class="tittle1">CIPHER SAVELOVE</h1>
-        <img class ="img1" src="img/loveislove.png">
+      <h1 id="tittle1">CIPHER SAVELOVE</h1>
     </div>
-    <div class="fondo">
-    <div class="centro">
-      <main>
-        <br><h3 class="contenido">Hola enamoradizx anónimx!<br>
-        Estamos encantadxs de ser participes de tu historia de amor. <br>
-        Acá podras cifrar y decifrar los mensajes que deseas enviar o te han enviado. <br>
-        Puedes usar el siguiente cuadro para cifrar y decifrar tus mensaje</h3><br><br>
-      </main>
-        <form class ="cifrado">
-            <br><br>
-              <section class="inputBox"><br>
-                <div class="one">
+    <hr>
+    <div id="fondo">
+      <section id="contenedor">
+        <div id="pag1">
+          <main>
+          <br><h3>Hola enamoradizx anónimx!<br>
+          Estamos encantadxs de ser participes de tu historia de amor. <br>
+          Acá podras cifrar y decifrar los mensajes que deseas enviar o te han enviado. <br>
+          Puedes usar el siguiente cuadro para cifrar y decifrar tus mensaje</h3><br><br>
+          <h3>Instrucciones</h3>
+            <ol id="Instrucciones">
+            <li>Piensa un mensaje con mucho amor</li>
+            <li>Escribelo</li>
+            <li>Cifralo</li>
+            <li>Listo, puedes compiarlo y compartirlo</li>
+          </ol>
+          </main>
+        </div>
+        <div id="pag2">
+          <form id ="cifrado">
+            <div id="inputBox">
+              <div id="one">
                   <!-- mensaje --> 
-                  <div class="first"><input class="box1" type="text" placeholder="Escribe aquí tu mensaje para ser cifrado:"></div>
-                  <!-------boton decifrar------->  
-                  <div class="firstright"><button class="decifrar" type="button">Decifrar</button></div>
-                </div>
-                <div class="two">
-                  <!--desplazamiento-->
-                  <div class="medio"><input class="dezplazamiento" type="number"></div>
-              </div>
-              <div class="three">
-                <!-- mensaje cifrado/decifrado -->
-                <div class="second"><input class="box2" type="text"></div>
+              <input id="box1" type="text" placeholder="Escribe aquí tu mensaje para ser cifrado:">
                 <!-------boton cifrar-------> 
-                <div class="secondright"><button class="cifrar">Cifrar</button></div>
+              <button id="cifrar">CIFRAR</button>
+              
               </div>
-            </section>      
-        </form>
+              <div id="two">
+                  <!--desplazamiento-->
+                <h4>DEZPLAZAMIENTO</h4>
+                <input id="dezplazamiento" type="number">
+              </div>
+              <div id="three">
+                  <!-- mensaje cifrado/decifrado -->
+                <input id="box2" type="text">
+                    <!-------boton decifrar------->  
+                <button id="decifrar" type="button">DECIFRAR</button>
+              </div>
+            </div>
+          </form>
+        </div>     
+      </section>
+        <div id="share">
+          <h3>¡COMPARTE TU MENSAJE EN TUS REDES SOCIALES!</h3><br>
+          <a id="hipervinculo" href="https://www.facebook.com/sharer/sharer.php?u=https://espai.es" target="_blank">Compartir en Facebook</a>
+          <a id="hipervinculo" href="https://twitter.com/intent/tweet?text=[text]&url=[url]&hashtags=[hashtag]" target="_blank">Compartir en twitter</a>
+          <a id="hipervinculo" href="https://api.whatsapp.com/send?text=[text]" target="_blank">Compartir en whatsapp</a>
+          <input id="hipervinculo" type="button" value="Imprimir" onclick="javascript:window.print()"/>
       </div>
-        <div class="share">
-          <h3>¡COMPARTE TU MENSAJE EN TUS REDES SOCIALES!</h3>
-          <a href="https://www.facebook.com/sharer/sharer.php?u=https://espai.es" target="_blank">Compartir en Facebook</a>
-          <a href="https://twitter.com/intent/tweet?text=[text]&url=[url]&hashtags=[hashtag]" target="_blank">Compartir en twitter</a>
-          <a href="https://api.whatsapp.com/send?text=[text]" target="_blank">Compartir en whatsapp</a>
-          <input type="button" value="Imprimir" onclick="javascript:window.print()"/>
-      </div>
-    </main>
-    <aside>
-    </aside>
     <script src="index.js" type="module"></script>
     </div>
   </body>
-  <footer> 
-    <div class="redes">
-      <p>Social</p> 
-      <a href="https://www.facebook.com/jeanellahugo" target="_blank"><img src="img/logofb.png" alt="ingresarfacebook"></a>
-      <a href="https://twitter.com/futuradiabetica" target="_blank"><img src="img/logotwitter.png" alt="ingresartwitter"></a>
-      <a href="https://www.linkedin.com/in/jeanella-hugo-b32784129/" target="_blank"><img src="img/logoin.png" alt="ingresarlinkendin"></a>
-    </div>
-    <div class="help">
-      <p>Si necesitas ayuda, no dudes en contactarnos <br>
-       Usa el siguiente enlance:</p>
-      <a href="https://reporta.adastra.org.pe/" target="_blank"><img class ="adastra" src="img/adastra.png"></a>
-      <p>Copyright (C) Cipher Savelove. Página web creada con fines académicos</p>
-    </div>  
+  <footer>
+    <section id="piedepagina">
+      <div id="redes">
+        <ul id="lista">
+          <li><a id="logo" href="https://www.facebook.com/jeanellahugo" target="_blank"><img src="img/logofb.png" alt="ingresarfacebook"></a></li>
+          <li><a id="logo" href="https://twitter.com/futuradiabetica" target="_blank"><img src="img/logotwitter.png" alt="ingresartwitter"></a></li>
+          <li><a id="logo" href="https://www.linkedin.com/in/jeanella-hugo-b32784129/" target="_blank"><img src="img/logoin.png" alt="ingresarlinkendin"></a></li><br>
+        </ul>  
+        <div id="copyright"></div><h5>Copyright (C) Cipher Savelove. Página web creada con fines académicos</h5></div>
+      </div>
+      <div id="help">
+        <h4>Si necesitas ayuda, no dudes en contactarnos. Usa el siguiente enlance:</h4><br>
+        <a href="https://reporta.adastra.org.pe/" target="_blank"><img id ="adastra" src="img/adastra.png"></a>
+      </div>  
+    </section>   
   </footer>
 </html>
