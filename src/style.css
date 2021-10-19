@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-#fondo{
+#fondo1{
     background-image: url('img/imagendefondo.png');
     background-size: cover;
     height: 550px;
@@ -32,32 +32,32 @@
 
 #pag1{
     
-    width: 400px;
-    height: 400px;
+    width: 100%;
     display: flex;
     align-content: center;
     line-height: 1.1;
-    color: ;
     font-weight: bold;
     font-size: 20px;
+}
+
+#instrucciones{
+    display: flex;
+    justify-content: space-around;
 }
 
 #pag2{
     display: flex;
     flex-direction: column;
-    align-content: space-around;
-    justify-content: center;
-    flex-wrap: wrap;  
+    justify-content: space-evenly;
+    align-items: center;  
 }
 
-#box1{
+#mensaje{
     height: 150px;
-    width: 350px;
+    width: 40vh;
 }
 
-#decifrar{
 
-}
 
 #two{
     display: flex;
@@ -69,14 +69,11 @@
     margin: 4%;
 }
 
-#box2{
+#mensaje2{
     height: 150px;
-    width: 350px;
+    width: 40vh;
 }
 
-#cifrar{
-
-}
 
 #piedepagina{
     display: flex;

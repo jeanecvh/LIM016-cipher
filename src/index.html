@@ -1,81 +1,74 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Cipher savelove</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body  >
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cipher savelove</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script src="index.js"></script>
+    </head>
+<body>
     <div id="root">
-      <h1 id="tittle1">CIPHER SAVELOVE</h1>
+        <h1 id="tittle1">CIPHER SAVELOVE</h1>
     </div>
-    <hr>
-    <div id="fondo">
-      <section id="contenedor">
-        <div id="pag1">
-          <main>
-          <br><h3>Hola enamoradizx anónimx!<br>
-          Estamos encantadxs de ser participes de tu historia de amor. <br>
-          Acá podras cifrar y decifrar los mensajes que deseas enviar o te han enviado. <br>
-          Puedes usar el siguiente cuadro para cifrar y decifrar tus mensaje</h3><br><br>
-          <h3>Instrucciones</h3>
-            <ol id="Instrucciones">
-            <li>Piensa un mensaje con mucho amor</li>
-            <li>Escribelo</li>
-            <li>Cifralo</li>
-            <li>Listo, puedes compiarlo y compartirlo</li>
-          </ol>
-          </main>
-        </div>
-        <div id="pag2">
-          <form id ="cifrado">
-            <div id="inputBox">
-              <div id="one">
-                  <!-- mensaje --> 
-              <input id="box1" type="text" placeholder="Escribe aquí tu mensaje para ser cifrado:">
-                <!-------boton cifrar-------> 
-              <button id="cifrar">CIFRAR</button>
-              
+    <section id="contenedor">
+          <div id="pag1">
+            <div id="fondo1">
+            <main>
+              <br><h3>Hola enamoradizx anónimx!<br>
+              Estamos encantadxs de ser participes de tu historia de amor. <br>
+              Acá podras cifrar y decifrar los mensajes que deseas enviar o te han enviado. <br>
+              Puedes usar el siguiente cuadro para cifrar y decifrar tus mensaje</h3><br><br>
+              <h3>Instrucciones</h3>
+              <div id=instrucciones>
+                <ol>
+                  <li>Piensa un mensaje con mucho amor</li>
+                  <li>Escribelo</li>
+                  <li>Cifralo</li>
+                  <li>Listo, puedes compiarlo y compartirlo</li>
+                </ol>
+              </div><br>
+            </main>
+            <div id="share">
+              <h3>¡COMPARTE TU MENSAJE EN TUS REDES SOCIALES!</h3><br>
+              <a id="hipervinculo" href="https://www.facebook.com/sharer/sharer.php?u=https://espai.es" target="_blank">Compartir en Facebook</a>
+              <a id="hipervinculo" href="https://twitter.com/intent/tweet?text=[text]&url=[url]&hashtags=[hashtag]" target="_blank">Compartir en twitter</a>
+              <a id="hipervinculo" href="https://api.whatsapp.com/send?text=[text]" target="_blank">Compartir en whatsapp</a>
+              <input id="hipervinculo" type="button" value="Imprimir" onclick="javascript:window.print()"/>
+            </div>
+          </div>
+        </div>  
+          <div id="pag2">
+              <div id=one>
+                  <p><input type="text" id="mensaje"/></p>
+                  <p><button type="button" id="cifrar">Cifrar</button></p> 
               </div>
               <div id="two">
-                  <!--desplazamiento-->
-                <h4>DEZPLAZAMIENTO</h4>
-                <input id="dezplazamiento" type="number">
+                  <h3>DESPLAZAMIENTO:</h3>
+                  <p><input type="number" id="desplazamiento" size="4"/></p>
               </div>
-              <div id="three">
-                  <!-- mensaje cifrado/decifrado -->
-                <input id="box2" type="text">
-                    <!-------boton decifrar------->  
-                <button id="decifrar" type="button">DECIFRAR</button>
-              </div>
-            </div>
-          </form>
-        </div>     
-      </section>
-        <div id="share">
-          <h3>¡COMPARTE TU MENSAJE EN TUS REDES SOCIALES!</h3><br>
-          <a id="hipervinculo" href="https://www.facebook.com/sharer/sharer.php?u=https://espai.es" target="_blank">Compartir en Facebook</a>
-          <a id="hipervinculo" href="https://twitter.com/intent/tweet?text=[text]&url=[url]&hashtags=[hashtag]" target="_blank">Compartir en twitter</a>
-          <a id="hipervinculo" href="https://api.whatsapp.com/send?text=[text]" target="_blank">Compartir en whatsapp</a>
-          <input id="hipervinculo" type="button" value="Imprimir" onclick="javascript:window.print()"/>
-      </div>
-    <script src="index.js" type="module"></script>
-    </div>
-  </body>
-  <footer>
+              <div id="three">  
+                  <button type="button" id="descifrar">Descifrar</button> </p>    
+                  <p><input type="text" id="mensaje2"/></p>
+              </div>  
+          </div>
+    </section>
+</body>
+<footer>
     <section id="piedepagina">
-      <div id="redes">
-        <ul id="lista">
-          <li><a id="logo" href="https://www.facebook.com/jeanellahugo" target="_blank"><img src="img/logofb.png" alt="ingresarfacebook"></a></li>
-          <li><a id="logo" href="https://twitter.com/futuradiabetica" target="_blank"><img src="img/logotwitter.png" alt="ingresartwitter"></a></li>
-          <li><a id="logo" href="https://www.linkedin.com/in/jeanella-hugo-b32784129/" target="_blank"><img src="img/logoin.png" alt="ingresarlinkendin"></a></li><br>
-        </ul>  
-        <div id="copyright"></div><h5>Copyright (C) Cipher Savelove. Página web creada con fines académicos</h5></div>
-      </div>
-      <div id="help">
-        <h4>Si necesitas ayuda, no dudes en contactarnos. Usa el siguiente enlance:</h4><br>
-        <a href="https://reporta.adastra.org.pe/" target="_blank"><img id ="adastra" src="img/adastra.png"></a>
-      </div>  
-    </section>   
-  </footer>
+        <div id="redes">
+            <ul id="lista">
+                <li><a id="logo" href="https://www.facebook.com/jeanellahugo" target="_blank"><img src="img/logofb.png" alt="ingresarfacebook"></a></li>
+                <li><a id="logo" href="https://twitter.com/futuradiabetica" target="_blank"><img src="img/logotwitter.png" alt="ingresartwitter"></a></li>
+                <li><a id="logo" href="https://www.linkedin.com/in/jeanella-hugo-b32784129/" target="_blank"><img src="img/logoin.png" alt="ingresarlinkendin"></a></li><br>
+            </ul>
+        </div>
+        <div id="copyright">
+            <h5>Copyright (C) Cipher Savelove. Página web creada con fines académicos</h5>
+        </div>
+        <div id="help">
+            <h4>Si necesitas ayuda, no dudes en contactarnos. Usa el siguiente enlance:</h4><br>
+            <a href="https://reporta.adastra.org.pe/" target="_blank"><img id ="adastra" src="img/adastra.png"></a>
+        </div>
+    </section>
+</footer>
 </html>
