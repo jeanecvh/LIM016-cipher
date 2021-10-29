@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>Cipher savelove</title>
         <link href="style.css" rel="stylesheet" type="text/css">
-        <script src="index.js"></script>
+        <script src="index.js" type="module"></script>
     </head>
 <body>
     <div id="root">
@@ -13,18 +13,18 @@
     <section id="contenedor">
           <div id="pag1">
             <div id="fondo1">
-            <main>
-              <br><h3>Hola enamoradizx anónimx!<br>
-              Estamos encantadxs de ser participes de tu historia de amor. <br>
-              Acá podras cifrar y decifrar los mensajes que deseas enviar o te han enviado. <br>
-              Puedes usar el siguiente cuadro para cifrar y decifrar tus mensaje</h3><br><br>
-              <h3>Instrucciones</h3>
+              <main>
+                <br><h3>Hola enamoradizx anónimx!<br>
+                Estamos encantadxs de ser participes de tu historia de amor. <br>
+                Acá podras cifrar y decifrar los mensajes que deseas enviar o te han enviado. <br>
+                Puedes usar el siguiente cuadro para cifrar y decifrar tus mensaje</h3><br><br>
+                <h3>Instrucciones:</h3><br>
               <div id=instrucciones>
                 <ol>
                   <li>Piensa un mensaje con mucho amor</li>
                   <li>Escribelo</li>
-                  <li>Cifralo</li>
-                  <li>Listo, puedes compiarlo y compartirlo</li>
+                  <li>Cifralo, seleccionando el número de posiciones a utilizar.</li>
+                  <li>Listo, puedes compiarlo y compartirlo. No olvides decirle a la persona quien reciba este mensaje, el número de posiciones que debe utilizar para decifrar tu mensaje de amor.</li>
                 </ol>
               </div><br>
             </main>
@@ -36,20 +36,20 @@
               <input id="hipervinculo" type="button" value="Imprimir" onclick="javascript:window.print()"/>
             </div>
           </div>
-        </div>  
+        </div>
           <div id="pag2">
               <div id=one>
                   <p><input type="text" id="mensaje"/></p>
-                  <p><button type="button" id="cifrar">Cifrar</button></p> 
+                  <p><button type="button" id="cifrar">Cifrar</button></p>
               </div>
               <div id="two">
                   <h3>DESPLAZAMIENTO:</h3>
                   <p><input type="number" id="desplazamiento" size="4"/></p>
               </div>
-              <div id="three">  
-                  <button type="button" id="descifrar">Descifrar</button> </p>    
+              <div id="three">
+                  <button type="button" id="descifrar">Descifrar</button> </p>
                   <p><input type="text" id="mensaje2"/></p>
-              </div>  
+              </div>
           </div>
     </section>
 </body>

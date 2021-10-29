@@ -4,14 +4,16 @@
     box-sizing: border-box;
 }
 
+
 #fondo1{
-    background-image: url('img/imagendefondo.png');
+    background-image: url('img/imagendefondo1.png');
     background-size: cover;
     height: 550px;
     background-position: center;
     opacity: 90%;
 
 }
+
 #tittle1{
     display: flex;
     align-items: center;
@@ -31,33 +33,35 @@
 }
 
 #pag1{
-    
+
     width: 100%;
     display: flex;
     align-content: center;
     line-height: 1.1;
     font-weight: bold;
+    color
     font-size: 20px;
 }
+
 
 #instrucciones{
     display: flex;
     justify-content: space-around;
+    line-height: 1.5;
+
 }
 
 #pag2{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;  
+    align-items: center;
 }
 
 #mensaje{
     height: 150px;
     width: 40vh;
 }
-
-
 
 #two{
     display: flex;
@@ -83,7 +87,7 @@
     opacity: 7
 }
 
-#redes{  
+#redes{
     display:inline;
 }
 
@@ -101,7 +105,7 @@
 #help{
     line-height: 1.1;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
 }
 
 #copyright{
