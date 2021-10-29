@@ -4,9 +4,6 @@ const cipher = {
         let resultado = '';
         //Recorrido de letra por letra
         for ( let i = 0; i < string.length; i++) {
-            if (/\s/.test(i)) {
-            // It has any kind of whitespace
-        }
              let posicion = string.charCodeAt(i)
              console.log(posicion);
            if (posicion >= 65 && posicion <= 90) {
