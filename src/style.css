@@ -32,6 +32,7 @@
 
 }
 
+ol { padding-left: 20px}
 #pag1{
 
     width: 100%;
@@ -39,7 +40,6 @@
     align-content: center;
     line-height: 1.1;
     font-weight: bold;
-    color
     font-size: 20px;
 }
 

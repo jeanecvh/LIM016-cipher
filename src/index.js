@@ -11,5 +11,5 @@ let decode = document.getElementById('decifrar')
     decode.addEventListener ('click', function () {
     let string = document.getElementById('mensaje2').value;
     let offset = document.getElementById('desplazamiento').value;
-    document.getElementById('mensaje').value = cipher.decode(string, offset).join('');
+    document.getElementById('mensaje').value = cipher.decode(string, offset);
 });
