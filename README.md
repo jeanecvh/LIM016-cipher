@@ -1,3 +1,45 @@
+# BIENVENIDO AL REPOSITORIO DE CIPHER SAVELOVE :tw-1f308:
+
+### Introducción:
+
+Este repositorio fue creado para la realización de un proyecto con fines educativos. Cabe acotar que es el primer prooyecto individual que se realizó con idea cero de lo que es la magia de la programación :tw-1f4bb:.
+
+### Dedicatoria para un mundo sin violencia :tw-1f49a:
+
+Este proyecto está dirigido para lxs personas que son participes de la comunidad LGTBIQ. Quienes aún son marginadxs por su propio entorno y viven con el miedo a ser descubiertos, temor al que dirán y las posibles 'consecuencias' que podrían sufrir en caso desean tomar la opción de ser libres y existe la oposición en su entorno.
+Sabemos que hoy en día la comunidad LGTBIQ está siendo más aceptada, ya sea por la misma población y/o diferentes tipos de medios, exigiendo el mismo respeto que merece tener todx ser humano. Pero también sabemos que existe el lado sumamente opuesto, quienes no los aceptan y cometen: desde agresiones verbales y/o físicas, hasta atentados contra la vida humana. Estas últimas declaraciones, son muy tristes. Ninguna persona debería vivir con miedo, y miedo a existir.
+
+### Cipher SaveLove :tw-1f308:
+
+'Cipher SaveLove :tw-1f308:' página web que realizar mensajes cifrados, para que los integrantes de la comunidad que aún viven en perfil bajo, se sientan seguros de poder enviar regalos, mensajes entre otros, delante de todas las personas a la vista. Y que solamente entre ellos, pueda ser entendido, guardando la identidad bajo el mismo cifrado. Siendo participe, de brindar un espacio seguro para la comunidad que aún vive bajo los prejuicios.
+
+### Prototipos de baja fidelidad
+
+#####  Primer prototipo:
+
+------------
+
+Head y body:
+
+![](img/headnbodyfirst.png)
+
+Footer:
+
+![](img/footer.png)
+
+Prototipo en canva (solo head y body):
+
+![](img/headynbodyfirstcanva.png)
+
+##### Segundo prototipo:
+
+------------
+
+Head y body:
+
+![](img/headynbodylastpng)
+
+----------
 # Cifrado César
 
 ## Índice
