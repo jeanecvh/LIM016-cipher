@@ -21,15 +21,15 @@ Sabemos que hoy en día la comunidad LGTBIQ está siendo más aceptada, ya sea p
 
 Head y body:
 
-![](img/headnbodyfirst.png)
+![](src/img/headnbodyfirst.png)
 
 Footer:
 
-![](img/footer.png)
+![](src/img/footer.png)
 
 Prototipo en canva (solo head y body):
 
-![](img/headynbodyfirstcanva.png)
+![](src/img/headynbodyfirstcanva.png)
 
 ##### Segundo prototipo:
 
