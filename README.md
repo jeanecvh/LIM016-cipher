@@ -1,3 +1,5 @@
+![LogoCipherSaveLove](src/img/logolast.png)<img src="logolast.png" alt="Image" width="800" height="600" style="display: block; margin: 0 auto"/>
+
 # BIENVENIDO AL REPOSITORIO DE CIPHER SAVELOVE :rainbow:
 
 ## Introducción:
@@ -12,7 +14,7 @@ Este proyecto está dirigido para lxs personas que son participes de la comunida
 
 #### ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
 
-Sabemos que hoy en día la comunidad LGTBIQ está siendo más aceptada, ya sea por la misma población y/o diferentes tipos de medios, exigiendo el mismo respeto que merece tener todx ser humano. Pero también sabemos que existe el lado sumamente opuesto, quienes no los aceptan y cometen: desde agresiones verbales y/o físicas, hasta atentados contra la vida humana. Estas últimas declaraciones, son muy tristes. Ninguna persona debería vivir con miedo, y miedo a existir.
+Sabemos que hoy en día la comunidad LGTBIQ :two_men_holding_hands: :two_women_holding_hands: está siendo más aceptada, ya sea por la misma población y/o diferentes tipos de medios, exigiendo el mismo respeto que merece tener todx ser humano. Pero también sabemos que existe el lado sumamente opuesto, quienes no los aceptan y cometen: desde agresiones verbales y/o físicas, hasta atentados contra la vida humana. Estas últimas declaraciones, son muy tristes. Ninguna persona debería vivir con miedo, y miedo a existir.
 
 ## Cipher SaveLove :rainbow:
 
@@ -24,33 +26,58 @@ Sabemos que hoy en día la comunidad LGTBIQ está siendo más aceptada, ya sea p
 
 ###  Primer prototipo:
 
-------------
+El primer prototipo se formo desde la primera semana de entrega del proyecto, me basé en la estructura de input de texto, que tiene Google Translate, sin medir la dificultad de plasmarlo en el proyecto.
 
-Head y body:
+* Head y body:
 
 ![](src/img/headnbodyfirst.png)
 
-Footer:
+* Footer:
 
 ![](src/img/footer.png)
 
-Prototipo en canva (solo head y body):
+* Prototipo en canva (solo head y body):
 
 ![](src/img/headynbodyfirstcanva.png)
 
 ### Segundo prototipo:
 
-------------
+Al momento de ponerlo en práctica, se hizo muy dificultoso. Así que opte por empezar por algo más fácil de poder armar.
 
-Head y body:
+* Head y body:
 
 ![](src/img/headynbodylastpng)
 
-## 9. Checklist
+Para la ejecución del prototipo, se tomó en cuenta la última modificiación del body y head, por motivo de mejor orden de ejecución (por el momento).
 
-Esta sección está para ayudarte a llevar un control de lo que vas completando.
+## Logos
 
-### Parte Obligatoria
+Creímos que para mayor relevancia, sería reconfortante encontrar un logo que pueda identificar a la comunidad :rainbow:, se tomaron en cuenta las siguientes opciones:
+
+![](src/img/logo1.png)
+
+![](src/img/logo2.png)
+
+![](src/img/imgrefe.png)
+
+
+## Instrucciones :clipboard::
+
+Para poder entender la interfaz de la web, seguiremos los siguientes pasos:
+
+Para cifrar:
+
+* Elegir un desplazamiento (_offset_) indicando cuántas posiciones queremos que el cifrado desplace cada caracter.
+* Insertar un mensaje (texto) que queremos cifrar en el primer text input.
+* Ver el resultado del mensaje cifrado en el segundo text input.
+
+Para decifrar:
+
+* Elegir un desplazamiento (_offset_) indicando cuántas posiciones queremos que el decifrado desplace cada caracter.
+* Insertar un mensaje (texto) que queremos descifrar en el primer text input.
+* Ver el resultado del mensaje descifrado en el segundo text input.
+
+## Objetivos del proyecto
 
 * [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
 * [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
@@ -71,8 +98,3 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
 * [ ] Interfaz permite escribir un texto para ser descifrado.
 * [ ] Interfaz muestra el resultado del descifrado correctamente.
 
-### Parte Opcional: "Hacker edition"
-
-* [ ] Cifra/descifra minúsculas
-* [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
-* [ ] Permite usar un `offset` negativo.

@@ -41,6 +41,7 @@ const cipher = {
     }
     return resultado;
   }
+
 }
 
   export default cipher;
