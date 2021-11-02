@@ -1,4 +1,6 @@
-![LogoCipherSaveLove](src/img/logolast.png)<img src="logolast.png" alt="Image" width="800" height="600" style="display: block; margin: 0 auto"/>
+<p align="center">
+  <img width="150" height="150" src="src/img/logolast.png">
+</p>
 
 # BIENVENIDO AL REPOSITORIO DE CIPHER SAVELOVE :rainbow:
 
@@ -30,15 +32,20 @@ El primer prototipo se formo desde la primera semana de entrega del proyecto, me
 
 * Head y body:
 
-![](src/img/headnbodyfirst.png)
+<br><p align="center">
+  <img width="400" height="400" src="src/img/headnbodyfirst.png">
+</p> <br>
 
 * Footer:
-
-![](src/img/footer.png)
+<br><br><p align="center">
+  <img width="500" height="200" src="src/img/footer.png">
+</p><br>
 
 * Prototipo en canva (solo head y body):
 
-![](src/img/headynbodyfirstcanva.png)
+<br><br><p align="center">
+  <img width="600" height="400" src="src/img/headynbodyfirstcanva.png">
+</p> <br>
 
 ### Segundo prototipo:
 
@@ -46,7 +53,9 @@ Al momento de ponerlo en práctica, se hizo muy dificultoso. Así que opte por e
 
 * Head y body:
 
-![](src/img/headynbodylastpng)
+<br><p align="center">
+  <img width="400" height="400" src="src/img/headynbodylast.png">
+</p><br><br>
 
 Para la ejecución del prototipo, se tomó en cuenta la última modificiación del body y head, por motivo de mejor orden de ejecución (por el momento).
 
@@ -54,11 +63,17 @@ Para la ejecución del prototipo, se tomó en cuenta la última modificiación d
 
 Creímos que para mayor relevancia, sería reconfortante encontrar un logo que pueda identificar a la comunidad :rainbow:, se tomaron en cuenta las siguientes opciones:
 
-![](src/img/logo1.png)
+<br><p align="center">
+  <img width="300" height="300" src="src/img/logo1.png">
+</p><br>
 
-![](src/img/logo2.png)
+<br><p align="center">
+  <img width="300" height="300" src="src/img/logo2.png">
+</p><br>
 
-![](src/img/imgrefe.png)
+<br><p align="center">
+  <img width="300" height="300" src="src/img/imgrefe.png">
+</p><br>
 
 
 ## Instrucciones :clipboard::
