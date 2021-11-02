@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="150" height="150" src="src/img/logolast.png">
+  <img width="150" height="150" src="src/img/logoweb2.png">
 </p>
 
 # BIENVENIDO AL REPOSITORIO DE CIPHER SAVELOVE :rainbow:
@@ -45,7 +45,7 @@ El primer prototipo se formo desde la primera semana de entrega del proyecto, me
 
 <br><br><p align="center">
   <img width="600" height="400" src="src/img/headynbodyfirstcanva.png">
-</p> <br>
+</p><br>
 
 ### Segundo prototipo:
 
@@ -89,8 +89,8 @@ Para cifrar:
 Para decifrar:
 
 * Elegir un desplazamiento (_offset_) indicando cuántas posiciones queremos que el decifrado desplace cada caracter.
-* Insertar un mensaje (texto) que queremos descifrar en el primer text input.
-* Ver el resultado del mensaje descifrado en el segundo text input.
+* Insertar un mensaje (texto) que queremos descifrar en el segundo text input.
+* Ver el resultado del mensaje descifrado en el primer text input.
 
 ## Objetivos del proyecto
 

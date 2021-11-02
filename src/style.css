@@ -4,23 +4,29 @@
     box-sizing: border-box;
 }
 
+
+#logotipo{
+  width: 100px;
+  height: 100px;
+}
+
+#root{
+  display: flex;
+  justify-content: space-between;
+  background-color: #9FE2BF;
+}
 #tittle1{
   display: flex;
   align-items: center;
-  height: 80px;
   padding: 20px;
-  border: yellowgreen 5px dashed
+  font-size: 40px;
 
 }
 
 #pag1{
-  background-image: url('img/imagendefondo1.png');
-  background-size: cover;
-  height: 550px;
-  background-position: center;
-  opacity: 90%;
+  border: 5px dashed;
+  border-color: #F1948A #AF7AC5 #85C1E9 #ABEBC6;
   border-radius: 10px;
-  width: 100%;
   display: flex;
   align-content: center;
   line-height: 1.1;
@@ -35,14 +41,19 @@
 }
 
 #pag2{
+  background-image: url('img/imagendefondo.png');
+  background-size: cover;
+  height: 550px;
+  background-position: center;
+  opacity: 90%;
+  border-radius: 10px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  border: salmon 5px dashed;
-  border-radius: 10px;
-}
 
+}
 
 #contenedor{
     display: grid;
@@ -68,24 +79,21 @@ ol { padding-left: 20px}
     align-items: baseline;
 }
 
-#dezplazamiento{
-    margin: 4%;
-}
-
 #mensaje2{
     border-radius: 10px;
     height: 150px;
     width: 90vh;
 }
 
-
 #piedepagina{
     display: flex;
-    padding: 10px;
+    padding: 20px;
     gap: 90px;
-    background-color: #9AECDB;
-    opacity: 7
+    background-color: #F1948A;
+    opacity: 7;
+    justify-content: space-between;
 }
+
 
 #redes{
     display:inline;
@@ -93,7 +101,13 @@ ol { padding-left: 20px}
 
 #lista{
     display: flex;
-    color: white;
+    color: #F1948A;
+}
+
+div#redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #logo{
@@ -108,14 +122,58 @@ ol { padding-left: 20px}
     flex-direction: column;
 }
 
-#copyright{
-    display: flex;
-    align-items: flex-end;
-    padding: 25px;
-}
 #adastra{
     padding: 4px white;
     margin: 4px white;
     border-radius: 10px;
-    box-shadow: 8px 10px 10px 2px #9AECDB;
+    box-shadow: 8px 10px 10px 2px #F1948A;
 }
+
+#cifrar{
+    font-weight: 600;
+    font-size: 20px;
+    color:#ffffff;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:#f2595e;
+    border-color: #F69DA1;
+    border-width: 3px;
+    border-style: solid;
+  }
+
+#decifrar{
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 20px;
+    color:#ffffff;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:#73C6B6;
+    border-color: #45B39D;
+    border-width: 3px;
+    border-style: solid;
+  }
+
+#boxdesplazamiento{
+    margin: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    color:#ffffff;
+    background-color:#D2B4DE;
+    border-color: #BB8FCE;
+    border-width: 3px;
+    border-style: solid;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+
+
+
