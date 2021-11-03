@@ -7,7 +7,7 @@ const encode = document.getElementById('cifrar');
     document.getElementById('mensaje2').value = cipher.encode(offset, string);
 });
 
-let decode = document.getElementById('decifrar')
+let decode = document.getElementById('descifrar')
     decode.addEventListener ('click', function () {
     let string = document.getElementById('mensaje2').value;
     let offset = document.getElementById('desplazamiento').value;
