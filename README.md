@@ -22,7 +22,7 @@ Sabemos que hoy en día la comunidad LGTBIQ :two_men_holding_hands: :two_women_h
 
 #### Resolviendo el problema:
 
-'Cipher SaveLove :rainbow:' página web que realizar mensajes cifrados, para que los integrantes de la comunidad que aún viven en perfil bajo, se sientan seguros de poder enviar regalos, mensajes entre otros, delante de todas las personas a la vista. Y que solamente entre ellos, pueda ser entendido, guardando la identidad bajo el mismo cifrado. Siendo participe, de brindar un espacio seguro para la comunidad que aún vive bajo los prejuicios.
+'Cipher SaveLove :rainbow:' página web que ejecutará mensajes cifrados para que los integrantes de la comunidad que aún viven en perfil bajo, se sientan seguros de poder enviar regalos, mensajes, entre otros; de esta manera otras personas no podrán comprender la identidad bajo el mismo cifrado. Siendo participe, de brindar un espacio seguro para la comunidad que aún vive bajo los prejuicios.
 
 ## Prototipos de baja fidelidad
 
@@ -83,13 +83,13 @@ Para poder entender la interfaz de la web, seguiremos los siguientes pasos:
 Para cifrar:
 
 * Elegir un desplazamiento (_offset_) indicando cuántas posiciones queremos que el cifrado desplace cada caracter.
-* Insertar un mensaje (texto) que queremos cifrar en el primer text input.
+* Insertar un mensaje (texto, en mayúsculas) que queremos cifrar en el primer text input.
 * Ver el resultado del mensaje cifrado en el segundo text input.
 
-Para decifrar:
+Para descifrar:
 
-* Elegir un desplazamiento (_offset_) indicando cuántas posiciones queremos que el decifrado desplace cada caracter.
-* Insertar un mensaje (texto) que queremos descifrar en el segundo text input.
+* Elegir un desplazamiento (_offset_) indicando cuántas posiciones queremos que el descifrado desplace cada caracter.
+* Insertar un mensaje (texto,  en mayúsculas) que queremos descifrar en el segundo text input.
 * Ver el resultado del mensaje descifrado en el primer text input.
 
 ## Objetivos del proyecto
